@@ -35,3 +35,8 @@ logging:
 
 project:
   image: images/
+
+# Strips Details
+stripe:
+  secret:
+    key: ${STRIPE_SECRET_KEY}
