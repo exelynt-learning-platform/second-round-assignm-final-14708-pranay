@@ -32,3 +32,6 @@ logging:
     com:
       ecommerce:
         app: DEBUG
+
+project:
+  image: images/

@@ -38,8 +38,8 @@ public class Order {
 
     private String orderStatus;
 
-//    @ManyToOne
-//    @JoinColumn(name = "address_id")
-//    private Address address;
+    @ManyToOne
+    @JoinColumn(name = "address_id")
+    private Address shippingAddress;
 
 }
